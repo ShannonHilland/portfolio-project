@@ -1,7 +1,33 @@
 @media (max-width: 768px) {
   .heading {
     position: absolute;
-    top: 30%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (min-height: 880px) {
+  .heading {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (min-height: 1000px) {
+  .heading {
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (min-height: 1200px) {
+  .heading {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
