@@ -5,6 +5,17 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  .about-h1 {
+    font-size: 40px;
+  }
+  .about-p {
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) {
+  .about-img {
+    max-width: 600px;
+  }
 }
 @media (min-height: 880px) {
   .heading {
@@ -72,4 +83,19 @@ h3 {
 .heading {
   float: left;
   padding: 30px;
+}
+.about-container {
+  margin: 0 100px;
+}
+.about-h1 {
+  margin-top: 80px;
+}
+.about-h1,
+.about-p {
+  color: white;
+  text-align: center;
+}
+.about-img {
+  display: block;
+  margin: 0 auto;
 }
