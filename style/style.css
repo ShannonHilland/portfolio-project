@@ -17,6 +17,15 @@ h3 {
   text-align: center;
 }
 
+a {
+  color: rgb(184, 184, 232);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(184, 184, 232);
+  text-decoration: underline;
+}
+
 .navbar-brand {
   font-family: "Ephesis", cursive;
   font-size: 28px;
@@ -41,15 +50,14 @@ h3 {
   padding: 30px;
 }
 .about-container {
-  margin: 0 100px;
+  margin: 80px 100px;
 }
 .about-h1 {
   margin-top: 80px;
   font-size: 70px;
 }
-.about-h1,
-.about-p,
-.gallery-h1 {
+.secondary-h1,
+.secondary-p {
   color: white;
   text-align: center;
 }
@@ -57,7 +65,7 @@ h3 {
   display: block;
   margin: 0 auto;
 }
-.gallery-container {
+.secondary-container {
   margin: 80px 100px 10px;
 }
 .gallery-img {
@@ -67,6 +75,13 @@ h3 {
   border: 1px solid rgb(184, 184, 232);
   display: block;
   margin: 0 auto;
+}
+.contact-img {
+  border: 1px solid rgb(184, 184, 232);
+  display: block;
+  margin: 0 auto;
+  object-fit: fill;
+  max-width: 85%;
 }
 
 @media (max-width: 768px) {
