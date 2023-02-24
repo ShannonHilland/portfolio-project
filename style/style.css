@@ -48,11 +48,23 @@ h3 {
   font-size: 70px;
 }
 .about-h1,
-.about-p {
+.about-p,
+.gallery-h1 {
   color: white;
   text-align: center;
 }
 .about-img {
+  display: block;
+  margin: 0 auto;
+}
+.gallery-container {
+  margin: 80px 100px 10px;
+}
+.gallery-img {
+  height: 200px;
+  width: 300px;
+  object-fit: fill;
+  border: 1px solid rgb(184, 184, 232);
   display: block;
   margin: 0 auto;
 }
@@ -79,6 +91,7 @@ h3 {
     font-size: 18px;
   }
 }
+
 @media (min-height: 880px) {
   .heading {
     position: absolute;
