@@ -17,7 +17,8 @@ h3 {
   text-align: center;
 }
 
-a {
+a,
+footer p {
   color: rgb(184, 184, 232);
   text-decoration: none;
 }
@@ -31,16 +32,20 @@ footer a {
   font-size: 20px;
 }
 
-footer .social-icons a {
+footer div a {
   color: rgb(184, 184, 232);
   padding: 10px;
   margin: 10px 0;
 }
-footer .social-icons a:hover {
+footer .social-icons:hover {
   color: rgb(86, 93, 93);
   background-color: rgb(184, 184, 232);
   border-radius: 50%;
   text-decoration: none;
+}
+footer p {
+  font-size: 12px;
+  text-align: center;
 }
 
 .navbar-brand {
@@ -68,6 +73,9 @@ footer .social-icons a:hover {
 }
 .about-container {
   margin: 80px 100px 0;
+}
+.index-container {
+  margin: 20px 100px;
 }
 .about-h1 {
   margin-top: 80px;
